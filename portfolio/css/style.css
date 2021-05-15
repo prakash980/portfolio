@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    padding: 0px;
+     
+}
+.one{
+    font-family: 'Mallanna', sans-serif;
+    font-size: 17px;
+    
+
+}
+
+.left{
+    
+    width: 490px;
+    height: 81px;
+    position: relative;
+    top: 20px;
+    
+
+}
+.right{
+    
+    width: 573px;
+    height: 50px;
+    position: absolute;
+    right:10px;
+    top: 43px;
+    
+}
+.header{
+    height: 140px;
+}
+.content{
+    width: auto;
+    height: 961px;
+    
+}
+.background{
+    border: 2px solid gainsboro;
+    height: 800px;
+    position: relative;
+    top: 0px;
+    width: 40%;
+    display: inline-block;
+    background-color: gainsboro;
+    
+}
+.main_content{
+    border: 2px solid linen;
+    position: absolute;
+    left: 398px;
+    top: 144px;
+    width: 55%;
+    height: 512px;
+    background: linen;
+    box-shadow: -10px 0px 13px 10px #aaa;
+}
+
+.main_content1{
+    position: absolute;
+    left: 819px;
+    top: 144px;
+    width: 90%;
+    height: 512px;
+    overflow: hidden;
+}
+.handles{
+    border: 2px solid white;
+    position: absolute;
+    top:660px;
+    left:398px;
+    width:55%;
+    height: 48px;
+    background-color: white;
+}
+.fleft{
+    width: 310px;
+    height: 77px;
+
+
+}
+.fright{
+    position: absolute;
+    right: 20px;
+    width: 551px;
+    height: 77px;
+}
+.bluebox{
+    border: 1px solid blue;
+    width: 23px;
+    height: 23px;
+    background-color: blue;
+    position: absolute;
+    top: 28px;
+    left:13px;
+}
+.left h3{
+    position: absolute;
+    left: 47px;
+    top: -1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:23px;
+}
+ul{
+    list-style-type: none;
+}
+.navbar{
+    display: inline;
+}
+li {
+    display: inline-block;
+}
+.navbar li a{
+    position: relative;
+    top: 9px;
+    padding: 26px;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.navbar li a:hover{
+    color: blue;
+}
+.navbar li a.active{
+    color: blue;
+}
+.main_content img{
+    width:230px;
+    height: 230px;
+    display: block;
+    margin: 41px auto;
+    border-radius: 120px;
+}
+.main_content h2{
+    text-align: center;
+    font-size: 33px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 11px;
+}
+hr{
+    width: 100px;
+    align-items: center;
+}
+.line{
+    border-top: 5px solid blue;
+    position: relative;
+    top: 8px;
+}
+.two{
+    font-family: 'Mallanna', sans-serif;
+    font-size: 17px;
+    position: relative;
+    top: 5px;
+    text-align: center;
+    font-size: 23px;
+}
+.social{
+    position: relative;
+    top: 4px;
+    left: 39px;
+    width: 40px;
+    height: 40px;
+    padding-right: 50px;
+}
+.main_content1 h1{
+    display: inline;
+    font-size: 98px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: --12px;
+    left: 43px;
+}
+.btn{
+    position: relative;
+    top: 57px;
+    left: 45px;
+    margin-right: 20px;
+    width: 119px;
+    height: 54px;
+    background-color: rgb(17 109 255);
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(17 109 255);
+}
+.main_content1 p{
+    position: relative;
+    top: 85px;
+    left: 45px;
+    font-size: 20px;
+}
+.foot{
+    position: relative;
+    top:10px;
+    left: 30px;
+}
+.rfoot{
+    position: relative;
+    left: 30px;
+    top:1-23px;
+    font-size: 27px;
+}
